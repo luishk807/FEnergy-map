@@ -1,0 +1,10 @@
+<?Php
+session_start();
+unset($_SESSION["fmap_user"]);
+unset($_SESSION["fmap"]);
+unset($_SESSION["titlesearch"]);
+unset($_SESSION["prevlink"]);
+unset($_SESSION["searchin"]);
+header('location:index.php');
+exit;
+?>

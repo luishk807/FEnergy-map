@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background:url(../images/bk.jpg);
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:top;
+	margin-top:0px;
+}
+html, body{
+	margin: 0; padding: 0;
+	/*font-family:'auxin';*/
+	/*font-family:Helvetica;*/
+	font-family:'qlassik';
+	color:#373737;
+	font-size:13pt;
+	height:100%;
+}
